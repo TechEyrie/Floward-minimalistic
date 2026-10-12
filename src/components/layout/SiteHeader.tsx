@@ -48,17 +48,18 @@ export function SiteHeader() {
   const inkNav =
     "transition-luxury px-5 py-2.5 text-[11px] uppercase tracking-[0.28em] text-ink hover:text-teal";
   const canvasNav =
-    "transition-luxury px-5 py-2.5 text-[11px] uppercase tracking-[0.28em] text-canvas/90 hover:text-canvas";
+    "transition-luxury px-5 py-2.5 text-[11px] uppercase tracking-[0.28em] text-white drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] hover:text-white";
 
   const iconInk = "p-2 text-ink hover:text-teal";
-  const iconCanvas = "p-2 text-canvas/90 hover:text-canvas";
+  const iconCanvas =
+    "bg-black/45 p-2 text-white backdrop-blur-sm hover:bg-black/60 hover:text-white";
 
   return (
     <>
       <header
         className={`site-header sticky top-0 z-30 transition-luxury ${
           headerOverHero
-            ? "site-header--over-hero border-b border-white/20 bg-canvas/10 backdrop-blur-sm shadow-none"
+            ? "site-header--over-hero border-b border-white/25 bg-ink/35 shadow-none backdrop-blur-md"
             : scrolled
               ? "border-b border-blush/30 bg-canvas/[0.97] shadow-[0_10px_40px_-18px_rgba(20,24,27,0.12)] backdrop-blur-md"
               : "border-b border-blush-line bg-canvas/90 backdrop-blur-md"
@@ -70,14 +71,18 @@ export function SiteHeader() {
               <Link
                 href="/"
                 className={`font-display text-[1.35rem] tracking-[0.02em] lg:text-[1.65rem] ${
-                  headerOverHero ? "text-canvas" : "text-ink"
+                  headerOverHero
+                    ? "text-white drop-shadow-[0_1px_10px_rgba(0,0,0,0.5)]"
+                    : "text-ink"
                 }`}
               >
                 Maison Nura
               </Link>
               <p
                 className={`hidden text-[10px] uppercase tracking-[0.28em] xl:block ${
-                  headerOverHero ? "text-canvas/65" : "text-gold"
+                  headerOverHero
+                    ? "text-white/90 drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]"
+                    : "text-gold"
                 }`}
               >
                 {t("qatar")} · QAR
@@ -109,9 +114,12 @@ export function SiteHeader() {
               ))}
             </nav>
 
-            <div className="relative flex flex-1 items-center justify-end gap-1 sm:gap-2">
+            <div className="header-actions relative flex flex-1 items-center justify-end gap-1 sm:gap-2">
               <div className="hidden lg:block">
-                <SearchBar variant="desktop" />
+                <SearchBar
+                  variant="desktop"
+                  tone={headerOverHero ? "onHero" : "default"}
+                />
               </div>
 
               <div className="lg:hidden">
@@ -135,7 +143,7 @@ export function SiteHeader() {
               </div>
 
               <div className="header-locale-slot">
-                <LocaleSwitcher />
+                <LocaleSwitcher tone={headerOverHero ? "onHero" : "default"} />
               </div>
 
               <button
@@ -148,7 +156,7 @@ export function SiteHeader() {
                 {count > 0 ? (
                   <span
                     className={`absolute end-0 top-0 flex size-4 items-center justify-center bg-teal text-[10px] font-medium text-canvas ${
-                      headerOverHero ? "ring-2 ring-canvas/80" : ""
+                      headerOverHero ? "ring-2 ring-canvas" : ""
                     }`}
                     aria-hidden
                   >

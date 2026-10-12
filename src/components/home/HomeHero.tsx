@@ -28,9 +28,13 @@ export async function HomeHero() {
         />
       </div>
 
-      {/* Nav only */}
+      {/* Stronger top veil on the trailing edge — header search/locale/cart sit here */}
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 z-[1] h-28 bg-gradient-to-b from-ink/35 to-transparent"
+        className="pointer-events-none absolute inset-x-0 top-0 z-[1] h-36 bg-gradient-to-b from-ink/50 to-transparent"
+        aria-hidden
+      />
+      <div
+        className="pointer-events-none absolute inset-y-0 end-0 z-[1] w-[42%] bg-gradient-to-l from-ink/35 via-ink/10 to-transparent rtl:bg-gradient-to-r"
         aria-hidden
       />
 

@@ -240,26 +240,7 @@ html[lang="ar"] .display-editorial {
   animation: hero-scroll-fade 3.2s ease-in-out infinite;
 }
 
-.site-header--over-hero .header-locale-slot button {
-  color: color-mix(in srgb, var(--color-canvas) 78%, transparent);
-}
-
-.site-header--over-hero .header-locale-slot button:hover {
-  color: var(--color-canvas);
-}
-
-.site-header--over-hero form.flex.items-center.border {
-  border-color: color-mix(in srgb, var(--color-canvas) 28%, transparent);
-  background-color: color-mix(in srgb, var(--color-canvas) 10%, transparent);
-}
-
-.site-header--over-hero form.flex.items-center.border input {
-  color: var(--color-canvas);
-}
-
-.site-header--over-hero form.flex.items-center.border input::placeholder {
-  color: color-mix(in srgb, var(--color-canvas) 55%, transparent);
-}
+/* Header over-hero right controls are toned via SearchBar/LocaleSwitcher props */
 
 /* Bright / premium homepage utilities */
 .img-bright-premium {
