@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Maison Nura — Florist & Gifting in Doha",
+    "description": "Quiet luxury flowers, plants, and curated gifts delivered across Qatar. Editorial arrangements for every moment."
+  },
+  "brand": {
+    "name": "Maison Nura",
+    "tagline": "Quiet luxury, composed in Doha"
+  },
+  "nav": {
+    "shop": "Shop",
+    "explore": "Explore",
+    "moments": "Moments",
+    "recipients": "Recipients",
+    "search": "Search",
+    "cart": "Cart",
+    "menu": "Menu",
+    "close": "Close",
+    "qatar": "Qatar",
+    "language": "Language",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "care": "Flower care",
+    "allShop": "All collections"
+  },
+  "home": {
+    "kicker": "Florist & gifting · Doha",
+    "heroTitle": "Send flowers that feel like a gift",
+    "heroBody": "Hand-tied bouquets, vessels, and curated presents from our Doha atelier — delivered across Qatar.",
+    "shopCta": "Shop flowers",
+    "storyCta": "Our story",
+    "pillarsKicker": "The house",
+    "pillarsTitle": "Rooms of Maison Nura",
+    "featuredKicker": "Curated",
+    "featuredTitle": "Featured this season",
+    "featuredCta": "View all featured",
+    "occasionsKicker": "Celebrate",
+    "occasionsTitle": "Shop by moment",
+    "deliveryKicker": "Delivery",
+    "deliveryTitle": "Across Doha & Qatar",
+    "deliveryBody": "Morning, afternoon, and evening slots. Express options on selected stems and gifts.",
+    "deliveryNote": "We collect your delivery address after you place your order.",
+    "ctaTitle": "Need guidance?",
+    "ctaBody": "Our stylists can pair stems, vessels, and gifts for weddings, Ramadan visits, and corporate moments.",
+    "ctaButton": "Speak with us"
+  },
+  "shop": {
+    "title": "Shop",
+    "all": "All",
+    "count": "{count} pieces",
+    "filters": "Filters",
+    "clear": "Clear all",
+    "expressOnly": "Express only",
+    "empty": "No pieces match your filters.",
+    "addToCart": "Add to cart",
+    "added": "Added",
+    "express": "Express"
+  },
+  "pdp": {
+    "addToCart": "Add to cart",
+    "description": "Description",
+    "care": "Care",
+    "includes": "Includes",
+    "dimensions": "Dimensions",
+    "height": "Height",
+    "width": "Width",
+    "pairWith": "Pair with",
+    "related": "You may also like",
+    "deliveryNote": "We collect the address after you order.",
+    "expressArrives": "Express delivery available today",
+    "breadcrumbHome": "Home"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "emptyCta": "Continue shopping",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "continue": "Continue shopping",
+    "remove": "Remove",
+    "qty": "Qty",
+    "drawerTitle": "Cart"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "recipient": "Recipient",
+    "recipientName": "Recipient name",
+    "recipientPhone": "Recipient phone",
+    "address": "Delivery address",
+    "area": "Area",
+    "street": "Street",
+    "building": "Building / villa",
+    "notes": "Delivery notes",
+    "slot": "Delivery slot",
+    "slotMorning": "Morning (9–12)",
+    "slotAfternoon": "Afternoon (12–5)",
+    "slotEvening": "Evening (5–9)",
+    "message": "Gift message",
+    "messagePlaceholder": "A few words for the card…",
+    "review": "Review order",
+    "place": "Place order",
+    "successTitle": "Thank you",
+    "successBody": "Your order is confirmed. We will be in touch if we need any details for delivery.",
+    "successCta": "Back to shop"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search flowers, gifts, occasions…",
+    "empty": "No results found.",
+    "results": "{count} results"
+  },
+  "about": {
+    "title": "About Maison Nura",
+    "body": "Maison Nura is a Doha florist house rooted in quiet luxury—editorial arrangements, enduring plants, and thoughtful gifts for life in Qatar. We source seasonally, design with restraint, and deliver with care from our studio to your door."
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "For styling advice, corporate gifting, or event florals, reach our team in Doha.",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Studio hours: Sun–Thu 9–6, Sat 10–4 (Qatar time)",
+    "send": "Send message",
+    "name": "Your name",
+    "message": "Message"
+  },
+  "carePage": {
+    "title": "Flower care",
+    "body": "Fresh stems thrive in cool rooms away from direct AC. Trim stems, refresh water often, and keep fruit at a distance. For plants, bright indirect light and measured watering suit most Qatar homes. Each Maison Nura piece includes specific care on the card."
+  },
+  "legal": {
+    "privacyTitle": "Privacy",
+    "privacyBody": "We use your details only to fulfil orders and respond to enquiries. We do not sell personal data. Delivery partners receive the minimum information required to complete your gift.",
+    "termsTitle": "Terms",
+    "termsBody": "All prices are in QAR. Perishable goods are prepared fresh; timing may vary during peak occasions. By placing an order you agree to our delivery windows and substitution policy for seasonal availability."
+  },
+  "footer": {
+    "blurb": "Florist & gifting house in Doha, Qatar.",
+    "explore": "Explore",
+    "house": "House",
+    "rights": "All rights reserved."
+  }
+}
